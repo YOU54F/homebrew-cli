@@ -12,7 +12,7 @@ class Saffus < Formula
       sha256 "eaad343a9a14598217b821a8c1eb9cbbdeb82bf071a482b9ef5f7046de306d04"
 
       def install
-        bin.install "saffus"
+        bin.install "saffus-darwin-amd64" => "saffus"
       end
     end
     if Hardware::CPU.arm?
@@ -20,7 +20,7 @@ class Saffus < Formula
       sha256 "6ecfa6198d197c7f47268826e5fc2e3f6d54e82e2e4f0c926125397fb5fb9cd6"
 
       def install
-        bin.install "saffus"
+        bin.install "saffus-darwin-arm64" => "saffus"
       end
     end
   end
