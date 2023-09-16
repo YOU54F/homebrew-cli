@@ -14,5 +14,5 @@ brew install cirruslabs/cli/tart
 To install a fork of [Cirrus CLI](https://github.com/you54f/cirrus-cli) run:
 
 ```bash
-brew install you54f/cli/cirrus
+brew install you54f/cli/saffus
 ```
